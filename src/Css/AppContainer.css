@@ -1,0 +1,8 @@
+.appContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #feb511;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}

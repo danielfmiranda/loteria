@@ -1,0 +1,154 @@
+.userCardContainer {
+    width:100%;
+    height:70%;
+}
+.callingCardContainer {
+    width:100%;
+    height:15%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.loteriaButtonContainer {
+    width:100%;
+    height:12%;
+    text-align: center;
+}
+
+.loteriaButton {
+    margin-top:.5rem;
+    width:50%;
+}
+
+.userContentColumn{
+    text-align: center;
+    height:100% !important;
+}
+
+.gameContainer {
+    height:100%;
+}
+
+.userContentRow {
+    height:100% !important;
+    width:100% !important;
+}
+
+.userContentContainer {
+    margin: auto;
+    height:100% !important;
+    width:100%;
+    padding:0 !important;
+}
+
+.row {
+    margin: auto;
+    max-width: 550px;
+    padding:0px !important;
+}
+.container{
+    max-width: unset !important;
+        padding:0px !important;
+
+
+}
+
+.col {
+        padding-right:0px !important;
+        padding-left:0px !important;
+
+}
+
+.cell {
+    border: 3px solid white;
+    padding: 0px !important;
+    margin:0px !important;
+    background-color: #FFFFFF;
+
+
+
+}
+
+.cell:hover {
+opacity: 0.8;
+transition-duration: .2s;
+cursor: pointer;
+
+
+
+
+}
+
+.cardRow{
+    padding:none !important;
+    height:23%;
+    background-color: #444c8b;
+}
+
+
+.cardImage {
+    height:100%;
+    width: 100%;
+}
+
+
+.userCard {
+    height:100%;
+    margin-top:1rem;
+}
+
+.a{
+        background-image: url("../../src/Images/El_Emoji.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.s {
+        background-image: url("../../src/Images/La_Campana.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.d{
+        background-image: url("../../src/Images/La_Garza.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.f{
+        background-image: url("../../src/Images/La_Estrella (1).png");
+    background-position: center;
+    background-size: contain;
+}
+
+.g{
+        background-image: url("../../src/Images/El_Arbol.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.h {
+        background-image: url("../../src/Images/El_Buscador.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.j{
+        background-image: url("../../src/Images/El_Pajaro.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.k{
+        background-image: url("../../src/Images/La_Sandia.png");
+    background-position: center;
+    background-size: contain;
+}
+
+.l{
+        background-image: url("../../src/Images/El_Musico.png");
+    background-position: center;
+    background-size: contain;
+}
+

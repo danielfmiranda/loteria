@@ -1,0 +1,109 @@
+
+body {
+}
+
+
+.introPageHeadingContainer {
+    -webkit-font-smoothing: antialiased;
+
+
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.introPageTitle {
+    margin-top: 10%;
+}
+
+.titleCardsContainer {
+    display: inline-flex;
+}
+
+/*COLOR PALLETTE*/
+/* GREEN #618e89*/
+/*RED #c24040*/
+/*BLUISH PURPLE#444c8b*/
+/*DARK ORANGE #ef7707*/
+
+.lCard {
+    background-color: #618e89;
+    transform: rotate(-5deg);
+    margin-right: -.5rem !important;
+    z-index: 1;
+}
+
+.oCard {
+    background-color: #c24040;
+    transform: rotate(5deg);
+    margin-right: -.4rem !important;
+    margin-top: .4rem !important;
+
+
+}
+
+.tCard {
+    background-color: #444c8b;
+    margin-right: -.5rem !important;
+}
+
+.eCard {
+    background-color: #ef7707;
+    transform: rotate(-5deg);
+    margin-right: -.5rem !important;
+    z-index: 1;
+    margin-top: .4rem !important;
+
+}
+
+.rCard {
+    background-color: #444c8b;
+    transform: rotate(5deg);
+    margin-right: -.5rem !important;
+    margin-top: .7rem !important;
+
+}
+
+.iCard {
+    background-color: #c24040;
+    transform: rotate(-5deg);
+    margin-right: -.5rem !important;
+}
+
+.aCard {
+    background-color: #ef7707;
+    margin-right: -.5rem !important;
+    z-index: 1;
+    margin-top: .4rem !important;
+
+
+}
+
+.exclamationCard {
+    background-color: #618e89;
+    transform: rotate(5deg);
+    margin-right: -.5rem !important;
+    z-index: 1;
+}
+
+.titleCard {
+    width: 2.2rem;
+    height: 4rem;
+    border: 3px solid white;
+    color: white;
+    border-radius: 5%;
+    margin: 0px 0px 4px 4px;
+}
+
+
+.startGameButton {
+    margin-top: 20%;
+}
+
+.introPageContentContainer {
+    width: 80%;
+    margin: auto;
+    padding-top: 13rem;
+    text-align: center;
+}
