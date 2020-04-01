@@ -2,70 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1d7ac1-e60d-4b7c-ba52-f18bcf20105b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/BeanContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/loteriaCardPanel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Css/Bean.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Ajolote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Alacran.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Arpa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Bandolon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Barril.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Cantarito.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Catrin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Cazo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Corazon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Cotorro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Elote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Gallo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Gorro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Guacamole.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Melon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Mundo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Nopal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Parajuas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Pescado.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Pino.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Sol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Tambor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Venado.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Vioncello.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/El_Xolo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Arana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Bandera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Bota.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Botella.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Calavera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Camaron.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Chalupa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Concha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Corona.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Dama.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Escalera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Estrella.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Luna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Maceta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Mano.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Palma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Pera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Rana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Rosa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/La_Sirena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/Las_Jaras.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/bean.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AppContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BeanContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BeanContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/GameContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Css/GameContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Css/GameContainer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/El_Arbol.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/El_Arbol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/El_Buscador.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/El_Buscador.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/El_Emoji.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/El_Emoji.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/El_Musico.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/El_Musico.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/El_Pajaro.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/El_Pajaro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/La_Campana.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/La_Campana.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/La_Sandia.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/La_Sandia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/AppContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="334" column="13" lean-forward="true" selection-start-line="334" selection-start-column="13" selection-end-line="334" selection-end-column="13" />
+            <state relative-caret-position="378">
+              <caret line="354" column="63" selection-end-line="404" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -87,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/GameContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            <state relative-caret-position="473">
+              <caret line="289" selection-start-line="289" selection-end-line="289" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -114,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/BeanContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-end-line="27" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -147,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/loteriaCardPanel.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="225">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -206,18 +145,18 @@
         <option value="$PROJECT_DIR$/src/Css/IntroPage.css" />
         <option value="$PROJECT_DIR$/src/Css/GameContainer.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/BeanContainer.jsx" />
         <option value="$PROJECT_DIR$/src/Css/Bean.css" />
         <option value="$PROJECT_DIR$/src/Components/loteriaCardPanel.jsx" />
-        <option value="$PROJECT_DIR$/src/Components/AppContainer.jsx" />
         <option value="$PROJECT_DIR$/src/Components/GameContainer.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/BeanContainer.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/AppContainer.jsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="463" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
+    <option name="width" value="1457" />
     <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -321,18 +260,18 @@
       <workItem from="1585014894845" duration="177000" />
       <workItem from="1585020966163" duration="3489000" />
       <workItem from="1585112593863" duration="21043000" />
-      <workItem from="1585706592995" duration="3023000" />
+      <workItem from="1585706592995" duration="8042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27732000" />
+    <option name="totallyTimeSpent" value="32751000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="23" width="960" height="1010" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28540304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13951011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -460,28 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/loteriaCardPanel.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/AppContainer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="334" column="13" lean-forward="true" selection-start-line="334" selection-start-column="13" selection-end-line="334" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/BeanContainer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -490,10 +409,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/GameContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state relative-caret-position="473">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/BeanContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/AppContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="354" column="63" selection-end-line="404" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

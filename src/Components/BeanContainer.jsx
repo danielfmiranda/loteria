@@ -7,7 +7,16 @@ class MyComponent extends Component {
     render() {
         return (
             <div className={'beanContainer'}>
-                <img  className='beanImage' src={beanImage}/>
+
+                {this.props.userCardColumnsSelected[this.props.columnNumber].selected === true ? (
+                    <img className='beanImage' src={beanImage}/>
+
+                ) : (
+
+                    null
+
+                )}
+
             </div>
         );
     }
