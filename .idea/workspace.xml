@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b1d7ac1-e60d-4b7c-ba52-f18bcf20105b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/Components/AppContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AppContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BeanContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BeanContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GameContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameContainer.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/AppContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="354" column="63" selection-end-line="404" />
+            <state relative-caret-position="275">
+              <caret line="384" column="16" selection-end-line="430" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -78,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/Css/Bean.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -99,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+              <caret line="3" column="9" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -153,10 +151,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="463" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1457" />
+    <option name="width" value="1920" />
     <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -260,18 +257,18 @@
       <workItem from="1585014894845" duration="177000" />
       <workItem from="1585020966163" duration="3489000" />
       <workItem from="1585112593863" duration="21043000" />
-      <workItem from="1585706592995" duration="8042000" />
+      <workItem from="1585706592995" duration="9067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32751000" />
+    <option name="totallyTimeSpent" value="33776000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1010" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1010" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13951011" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13951011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -285,7 +282,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -363,7 +360,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-end-line="4" />
+          <caret line="3" column="9" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -383,7 +380,7 @@
     <entry file="file://$PROJECT_DIR$/src/Css/Bean.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -429,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/AppContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="354" column="63" selection-end-line="404" />
+        <state relative-caret-position="275">
+          <caret line="384" column="16" selection-end-line="430" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

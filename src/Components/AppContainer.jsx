@@ -359,10 +359,36 @@ class AppContainer extends Component {
     };
 
 
+    //REAL REAL SLOPPY BUT WORKS FIX AFTER
     getUsersCards = () => {
         for (let i = 0; i < 16; i++) {
             let randomNumber = Math.floor(Math.random() * this.state.possibleCards.length);
-            this.state.usersCards.push(this.state.possibleCards[randomNumber])
+            let userAlreadyHaveCardBool = this.state.usersCards.some(item => this.state.possibleCards[randomNumber].name === item.name);
+            if (userAlreadyHaveCardBool === false) {
+                this.state.usersCards.push(this.state.possibleCards[randomNumber])
+            } else {
+                let randomNumber = Math.floor(Math.random() * this.state.possibleCards.length);
+                let userAlreadyHaveCardBool = this.state.usersCards.some(item => this.state.possibleCards[randomNumber].name === item.name);
+                if (userAlreadyHaveCardBool === false) {
+                    this.state.usersCards.push(this.state.possibleCards[randomNumber])
+                } else {
+                    let randomNumber = Math.floor(Math.random() * this.state.possibleCards.length);
+                    let userAlreadyHaveCardBool = this.state.usersCards.some(item => this.state.possibleCards[randomNumber].name === item.name);
+                    if (userAlreadyHaveCardBool === false) {
+                        this.state.usersCards.push(this.state.possibleCards[randomNumber])
+                    } else {
+                        let randomNumber = Math.floor(Math.random() * this.state.possibleCards.length);
+                        let userAlreadyHaveCardBool = this.state.usersCards.some(item => this.state.possibleCards[randomNumber].name === item.name);
+                        if (userAlreadyHaveCardBool === false) {
+                            this.state.usersCards.push(this.state.possibleCards[randomNumber])
+                        } else {
+
+
+                        }
+                    }
+                }
+            }
+
         }
 
 
