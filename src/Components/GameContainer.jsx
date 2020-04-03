@@ -5,6 +5,7 @@ import Container from "react-bootstrap/esm/Container";
 import BeanContainer from "./BeanContainer";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import DealersCardContainer from "./DealersCardContainer";
 
 class GameContainer extends Component {
     componentDidMount() {
@@ -15,32 +16,7 @@ class GameContainer extends Component {
         return (
             <div className={"gameContainer"}>
                 <div className={"callingCardContainer"}>
-                    <div className={"titleCardsContainer"}>
-                        <div className={"lCard titleCard"}>
-                            <h1 className={"introPageTitle"}> L </h1>
-                        </div>
-                        <div className={"oCard titleCard"}>
-                            <h1 className={"introPageTitle"}> O </h1>
-                        </div>
-                        <div className={"tCard titleCard"}>
-                            <h1 className={"introPageTitle"}> T </h1>
-                        </div>
-                        <div className={"eCard titleCard"}>
-                            <h1 className={"introPageTitle"}> E </h1>
-                        </div>
-                        <div className={"rCard titleCard"}>
-                            <h1 className={"introPageTitle"}> R </h1>
-                        </div>
-                        <div className={"iCard titleCard"}>
-                            <h1 className={"introPageTitle"}> I </h1>
-                        </div>
-                        <div className={"aCard titleCard"}>
-                            <h1 className={"introPageTitle"}> A </h1>
-                        </div>
-                        <div className={"exclamationCard titleCard"}>
-                            <h1 className={"introPageTitle"}> ! </h1>
-                        </div>
-                    </div>
+                    <DealersCardContainer/>
                 </div>
 
                 <div className={"userCardContainer"}>
@@ -259,7 +235,7 @@ class GameContainer extends Component {
                                         >
                                             <BeanContainer
                                                 columnNumber={13}
-                                                 userCardColumnsSelected={this.props.userCardColumnsSelected}
+                                                userCardColumnsSelected={this.props.userCardColumnsSelected}
 
                                             />
                                         </Col>
@@ -286,7 +262,7 @@ class GameContainer extends Component {
                                         >
                                             <BeanContainer
                                                 columnNumber={15}
-                                                 userCardColumnsSelected={this.props.userCardColumnsSelected}
+                                                userCardColumnsSelected={this.props.userCardColumnsSelected}
 
                                             />
                                         </Col>

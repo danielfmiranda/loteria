@@ -44,6 +44,7 @@
 
 .row {
     margin: auto;
+    min-width: 400px;
     max-width: 550px;
     padding:0px !important;
 }
@@ -295,7 +296,7 @@ cursor: pointer;
 .pescado{
         background-image: url("../../src/Images/El_Pescado.png");
     background-position: center;
-    background-size: contain;
+    background-size: 93% 100%;
 }
 
 .pino{
