@@ -6,12 +6,15 @@ class DealersCardContainer extends Component {
     render() {
         return (
             <div className={'dealersCardContainer'}>
-                <div className={'cardContainer'}>
-                    <h5> Hi </h5>
+
+                <div className="non-semantic-protector">
+                    <div className={'imageContainer'}> </div>
+
+                    <h1 className="ribbon">
+                        <strong className="ribbon-content">La Botella</strong>
+                    </h1>
                 </div>
-                <div className={'cardNameContainer'}>
-                                        <h1> Card Name Baybee </h1>
-                </div>
+
             </div>
         );
     }
