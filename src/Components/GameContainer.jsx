@@ -11,12 +11,21 @@ class GameContainer extends Component {
     componentDidMount() {
     }
 
+    loteriaButtonClick = () => {
+        console.log("LOTERIA!!")
+    };
+
+
 
     render() {
         return (
             <div className={"gameContainer"}>
                 <div className={"callingCardContainer"}>
-                    <DealersCardContainer/>
+                    <DealersCardContainer
+                                            currentCalledCard={this.props.currentCalledCard}
+
+
+                    />
                 </div>
 
                 <div className={"userCardContainer"}>
@@ -32,7 +41,7 @@ class GameContainer extends Component {
                                             }
                                             cardName={`${this.props.usersCards[0].name}`}
                                             xs={3}
-                                            onClick={() => this.props.cardClick(0)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[0].name}`,0)}
                                             columnNumber={0}
                                         >
                                             <BeanContainer
@@ -46,7 +55,7 @@ class GameContainer extends Component {
                                             }
                                             cardName={`${this.props.usersCards[1].name}`}
                                             xs={3}
-                                            onClick={() => this.props.cardClick(1)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[1].name}`,1)}
 
                                             columnNumber={1}
 
@@ -63,7 +72,7 @@ class GameContainer extends Component {
                                             }
                                             cardName={`${this.props.usersCards[2].name}`}
                                             xs={3}
-                                            onClick={() => this.props.cardClick(2)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[2].name}`,2)}
 
                                             columnNumber={2}
 
@@ -80,7 +89,7 @@ class GameContainer extends Component {
                                             }
                                             cardName={`${this.props.usersCards[3].name}`}
                                             xs={3}
-                                            onClick={() => this.props.cardClick(3)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[3].name}`,3)}
 
                                             columnNumber={3}
 
@@ -100,7 +109,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[4].name}`}
                                             xs={3}
                                             columnNumber={4}
-                                            onClick={() => this.props.cardClick(4)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[4].name}`,4)}
                                         >
                                             <BeanContainer
                                                 columnNumber={4}
@@ -115,7 +124,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[5].name}`}
                                             xs={3}
                                             columnNumber={5}
-                                            onClick={() => this.props.cardClick(5)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[5].name}`,5)}
                                         >
                                             <BeanContainer
                                                 columnNumber={5}
@@ -130,7 +139,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[6].name}`}
                                             xs={3}
                                             columnNumber={6}
-                                            onClick={() => this.props.cardClick(6)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[6].name}`,6)}
                                         >
                                             <BeanContainer
                                                 columnNumber={6}
@@ -145,7 +154,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[7].name}`}
                                             xs={3}
                                             columnNumber={7}
-                                            onClick={() => this.props.cardClick(7)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[7].name}`,7)}
                                         >
                                             <BeanContainer
                                                 columnNumber={7}
@@ -162,7 +171,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[8].name}`}
                                             xs={3}
                                             columnNumber={8}
-                                            onClick={() => this.props.cardClick(8)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[8].name}`,8)}
                                         >
                                             <BeanContainer
                                                 columnNumber={8}
@@ -177,7 +186,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[9].name}`}
                                             xs={3}
                                             columnNumber={9}
-                                            onClick={() => this.props.cardClick(9)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[9].name}`,9)}
                                         >
                                             <BeanContainer
                                                 columnNumber={9}
@@ -190,7 +199,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[10].name}`}
                                             xs={3}
                                             columnNumber={10}
-                                            onClick={() => this.props.cardClick(10)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[10].name}`,10)}
                                         >
                                             <BeanContainer
                                                 columnNumber={10}
@@ -203,7 +212,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[11].name}`}
                                             xs={3}
                                             columnNumber={11}
-                                            onClick={() => this.props.cardClick(11)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[11].name}`,11)}
                                         >
                                             <BeanContainer
                                                 columnNumber={11}
@@ -218,7 +227,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[12].name}`}
                                             xs={3}
                                             columnNumber={12}
-                                            onClick={() => this.props.cardClick(12)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[12].name}`,12)}
                                         >
                                             <BeanContainer
                                                 columnNumber={12}
@@ -231,7 +240,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[13].name}`}
                                             xs={3}
                                             columnNumber={13}
-                                            onClick={() => this.props.cardClick(13)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[13].name}`,13)}
                                         >
                                             <BeanContainer
                                                 columnNumber={13}
@@ -244,7 +253,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[14].name}`}
                                             xs={3}
                                             columnNumber={14}
-                                            onClick={() => this.props.cardClick(14)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[14].name}`,14)}
                                         >
                                             <BeanContainer
                                                 columnNumber={14}
@@ -258,7 +267,7 @@ class GameContainer extends Component {
                                             cardName={`${this.props.usersCards[15].name}`}
                                             xs={3}
                                             columnNumber={15}
-                                            onClick={() => this.props.cardClick(15)}
+                                            onClick={() => this.props.cardClick(`${this.props.usersCards[15].name}`,15)}
                                         >
                                             <BeanContainer
                                                 columnNumber={15}
@@ -274,7 +283,7 @@ class GameContainer extends Component {
                     </Container>
                 </div>
                 <div className={"loteriaButtonContainer"}>
-                    <Button className={"loteriaButton"}>
+                    <Button onClick={this.loteriaButtonClick} className={"loteriaButton"}>
                         <h2> LOTERIA! </h2>
                     </Button>
                 </div>

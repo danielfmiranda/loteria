@@ -4,6 +4,7 @@
     text-align: center;
     margin: auto;
     height:100%;
+    max-width: 400px;
 }
 
 
@@ -69,7 +70,7 @@
     height:6.5em;
     margin-left:4em;
     box-shadow:grey 6px 5px;
-    background-image: url("../../src/Images/La_Botella.png");
+    /*background-image: url("../../src/Images/La_Botella.png");*/
     background-position: center;
     background-size: 95% 100%;    background-repeat: no-repeat;
 

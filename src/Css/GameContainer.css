@@ -21,6 +21,8 @@
 .loteriaButton {
     margin-top: .5rem;
     width: 50%;
+        max-width: 500px;
+
 }
 
 .userContentColumn {

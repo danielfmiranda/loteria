@@ -331,7 +331,13 @@ class AppContainer extends Component {
                     selected: false
                 },
 
-            ]
+            ],
+            cardsCalled: [],
+            currentCalledCard: {
+                name:'',
+                className:''
+
+            }
 
 
         };
@@ -340,9 +346,12 @@ class AppContainer extends Component {
 
     componentWillMount() {
         this.getUsersCards();
+        this.getRandomNum();
     }
 
-    cardClick = (columnNumber) => {
+    cardClick = (cardName, columnNumber) => {
+        console.log(`They selected` + cardName + `they selected column` + columnNumber)
+
         if (this.state.userCardColumnsSelected[columnNumber].selected === true) {
             const newItems = [...this.state.userCardColumnsSelected];
             newItems[columnNumber].selected = false;
@@ -363,11 +372,10 @@ class AppContainer extends Component {
         for (let i = 0; i < 16;) {
             let randomNumber = Math.floor(Math.random() * this.state.possibleCards.length);
             let userAlreadyHaveCardBool = this.state.usersCards.some(item => this.state.possibleCards[randomNumber].name === item.name);
-            if( userAlreadyHaveCardBool === false) {
+            if (userAlreadyHaveCardBool === false) {
                 this.state.usersCards.push(this.state.possibleCards[randomNumber]);
                 i++;
-            }
-            else {
+            } else {
 
             }
 
@@ -380,6 +388,25 @@ class AppContainer extends Component {
         this.setState({
             introButtonClicked: true
         })
+    };
+
+
+    getRandomNum = () => {
+        const nums = new Set();
+        if (nums.size !== 57) {
+            let randomNumber = Math.floor((Math.random() * 57) + 1);
+            nums.add(randomNumber)
+            this.state.cardsCalled.push(this.state.possibleCards[randomNumber]);
+            this.setState({
+               currentCalledCard:   this.state.possibleCards[randomNumber]
+            })
+
+        } else {
+
+        }
+
+        setTimeout(this.getRandomNum, 5000);
+
     };
 
 
@@ -399,6 +426,7 @@ class AppContainer extends Component {
                         usersCards={this.state.usersCards}
                         userCardColumnsSelected={this.state.userCardColumnsSelected}
                         cardClick={this.cardClick}
+                        currentCalledCard={this.state.currentCalledCard}
                     />
                 )}
 
