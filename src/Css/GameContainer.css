@@ -21,7 +21,7 @@
 .loteriaButton {
     margin-top: .5rem;
     width: 50%;
-        max-width: 500px;
+    max-width: 500px;
 
 }
 
@@ -32,6 +32,20 @@
 
 .gameContainer {
     height: 100%;
+}
+
+.errorMessageRow {
+    background-color: red !important;
+    transition-duration: 0.2s;
+    padding: none !important;
+    height: 23%;
+
+}
+
+.errorMessageRow > .cell {
+    opacity: 0.8;
+    transition-duration: 0.2s;
+
 }
 
 .userContentRow {
@@ -66,6 +80,8 @@
 }
 
 .cell {
+    transition-duration: 0.2s;
+
     border: 3px solid white;
     padding: 0px !important;
     margin: 0px !important;
@@ -86,6 +102,8 @@
     padding: none !important;
     height: 23%;
     background-color: #444c8b;
+    transition-duration: 0.2s;
+
 }
 
 

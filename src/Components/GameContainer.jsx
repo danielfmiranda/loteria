@@ -34,7 +34,7 @@ class GameContainer extends Component {
                             <Col className={"userContentColumn"} xs={1}></Col>
                             <Col className={"userContentColumn"} xs={10}>
                                 <div className={"userCard"}>
-                                    <Row className={"cardRow"}>
+                                    <Row className={`${this.props.playerDidNotWinMessage === false ? (`cardRow`) : (`errorMessageRow`)}`}>
                                         <Col
                                             className={
                                                 `cell ` + `${this.props.usersCards[0].className}`
@@ -101,7 +101,7 @@ class GameContainer extends Component {
                                             />
                                         </Col>
                                     </Row>
-                                    <Row className={"cardRow 5"}>
+                                    <Row className={`cardRow + ${this.props.playerDidNotWinMessage === false ? (null) : (`errorMessageRow`)}`}>
                                         <Col
                                             className={
                                                 `cell ` + `${this.props.usersCards[4].className}`
@@ -163,7 +163,7 @@ class GameContainer extends Component {
                                             />
                                         </Col>
                                     </Row>
-                                    <Row className={"cardRow"}>
+                                    <Row className={`cardRow + ${this.props.playerDidNotWinMessage === false ? (null) : (`errorMessageRow`)}`}>
                                         <Col
                                             className={
                                                 `cell ` + `${this.props.usersCards[8].className}`
@@ -221,7 +221,7 @@ class GameContainer extends Component {
                                             />
                                         </Col>
                                     </Row>
-                                    <Row className={"cardRow"}>
+                                    <Row className={`cardRow + ${this.props.playerDidNotWinMessage === false ? (null) : (`errorMessageRow`)}`}>
                                         <Col
                                             className={`cell ` + `${this.props.usersCards[12].className}`}
                                             cardName={`${this.props.usersCards[12].name}`}
@@ -283,7 +283,7 @@ class GameContainer extends Component {
                     </Container>
                 </div>
                 <div className={"loteriaButtonContainer"}>
-                    <Button onClick={this.loteriaButtonClick} className={"loteriaButton"}>
+                    <Button onClick={this.props.checkIfPlayerWon} className={"loteriaButton"}>
                         <h2> LOTERIA! </h2>
                     </Button>
                 </div>

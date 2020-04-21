@@ -7,7 +7,7 @@ class AppContainer extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            introButtonClicked: true,
+            introButtonClicked: false,
             possibleCards: [
                 {
                     name: "El Ajolote",
@@ -332,13 +332,20 @@ class AppContainer extends Component {
                 },
 
             ],
-            cardsCalled: [],
+            cardsCalled: new Set(),
             currentCalledCard: {
-                name:'',
-                className:''
+                name: 'default',
+                className: 'default'
 
-            }
+            },
+            nums: new Set(),
+            numsToCall: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+                35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
 
+            cardCalledNumber: 0,
+            ranNums: [],
+            playerCardsDoMatch: false,
+            playerDidNotWinMessage:false
 
         };
 
@@ -346,7 +353,8 @@ class AppContainer extends Component {
 
     componentWillMount() {
         this.getUsersCards();
-        this.getRandomNum();
+
+        this.shuffleNumbers();
     }
 
     cardClick = (cardName, columnNumber) => {
@@ -388,24 +396,89 @@ class AppContainer extends Component {
         this.setState({
             introButtonClicked: true
         })
+        this.getRandomNum();
+
+    };
+
+
+    shuffleNumbers = () => {
+        var nums = this.state.numsToCall
+        let ranNums = []
+        let i = nums.length
+        let j = 0;
+
+        while (i--) {
+            j = Math.floor(Math.random() * (i + 1));
+            ranNums.push(nums[j]);
+            nums.splice(j, 1);
+        }
+
+        this.setState({
+            ranNums: ranNums
+        })
+        console.log(ranNums)
+
+
     };
 
 
     getRandomNum = () => {
-        const nums = new Set();
-        if (nums.size !== 57) {
-            let randomNumber = Math.floor((Math.random() * 57) + 1);
-            nums.add(randomNumber)
-            this.state.cardsCalled.push(this.state.possibleCards[randomNumber]);
+
+        if (this.state.nums.size !== 52) {
+            let numberInShuffledArray = this.state.ranNums[this.state.cardCalledNumber]
+            if (numberInShuffledArray === []) {
+
+            } else {
+
+                console.log('numberInShuffledArray')
+                console.log(numberInShuffledArray)
+
+                this.state.cardsCalled.add(this.state.possibleCards[numberInShuffledArray]);
+                //
+                this.state.nums.add(numberInShuffledArray);
+                //
+                //
+                this.setState({
+                    currentCalledCard: this.state.possibleCards[numberInShuffledArray],
+                    cardCalledNumber: this.state.cardCalledNumber + 1
+
+                })
+                console.log(this.state.possibleCards[numberInShuffledArray])
+            }
+        }
+
+
+        setTimeout(this.getRandomNum, 5000);
+
+
+    }
+
+    turnOffOverLay = () => {
+        this.setState({
+            playerDidNotWinMessage: false
+        })
+    }
+
+
+    checkIfPlayerWon = () => {
+        console.log("Checking if player won!")
+        let array2 = this.state.usersCards;
+        let result = {};
+        this.state.cardsCalled.forEach(function (item) {
+            result[item.name] = array2.filter(t => t.name == item.name).length;
+        })
+        console.log(result)
+
+        if (this.state.playerCardsDoMatch === false) {
+
             this.setState({
-               currentCalledCard:   this.state.possibleCards[randomNumber]
+                playerDidNotWinMessage: true
             })
+            setTimeout(this.turnOffOverLay, 1000);
 
         } else {
 
         }
-
-        setTimeout(this.getRandomNum, 5000);
 
     };
 
@@ -427,6 +500,8 @@ class AppContainer extends Component {
                         userCardColumnsSelected={this.state.userCardColumnsSelected}
                         cardClick={this.cardClick}
                         currentCalledCard={this.state.currentCalledCard}
+                        checkIfPlayerWon={this.checkIfPlayerWon}
+                        playerDidNotWinMessage={this.state.playerDidNotWinMessage}
                     />
                 )}
 
