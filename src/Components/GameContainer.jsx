@@ -16,7 +16,6 @@ class GameContainer extends Component {
     }
 
     loteriaButtonClick = () => {
-        console.log("LOTERIA!!")
     };
 
 
@@ -31,7 +30,7 @@ class GameContainer extends Component {
                     : (
                         <div className={"gameContainer"}>
                             <motion.div className={'callingCardContainer'}
-                                        animate={{y: 50}}
+                                        animate={{y: 20}}
                                         initial={{y: -100}}
                                         transition={{duration: .5}}
 
@@ -70,10 +69,18 @@ class GameContainer extends Component {
                                                             onClick={() => this.props.cardClick(`${this.props.usersCards[0].name}`, 0)}
                                                             columnNumber={0}
                                                         >
+                                                               <motion.div className={'gameContainer'}
+                                        animate={{scale: .9}}
+                                        initial={{scale: 0}}
+                                        transition={{duration: .5}}
+
+
+                            >
                                                             <BeanContainer
                                                                 columnNumber={0}
                                                                 userCardColumnsSelected={this.props.userCardColumnsSelected}
                                                             />
+                                                               </motion.div>
                                                         </Col>
                                                         <Col
                                                             className={

@@ -638,8 +638,14 @@
 
 
 
+.countDownCard {
+
+        background-image: linear-gradient(indianred, indianred);
+  background-size: 90% 92% !important;
+      background-repeat: no-repeat;
 
 
+}
 
 
 

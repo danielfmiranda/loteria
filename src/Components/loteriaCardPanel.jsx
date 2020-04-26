@@ -4,10 +4,7 @@ import Col from "react-bootstrap/Col";
 import '../Css/GameContainer.css'
 
 class loteriaCardPanel extends Component {
-componentDidMount() {
-        console.log(this.props)
 
-}
 
     render() {
         return (

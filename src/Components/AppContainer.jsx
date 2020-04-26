@@ -335,8 +335,8 @@ class AppContainer extends Component {
             ],
             cardsCalled: new Set(),
             currentCalledCard: {
-                name: 'default',
-                className: 'default'
+                name: 4,
+                className: "countDownCard",
 
             },
             nums: new Set(),
@@ -347,7 +347,7 @@ class AppContainer extends Component {
             ranNums: [],
             playerCardsDoMatch: false,
             playerDidNotWinMessage: false,
-            playerHasWonMessage:false
+            playerHasWonMessage: false
 
         };
 
@@ -360,7 +360,6 @@ class AppContainer extends Component {
     }
 
     cardClick = (cardName, columnNumber) => {
-        console.log(`They selected` + cardName + `they selected column` + columnNumber)
 
         if (this.state.userCardColumnsSelected[columnNumber].selected === true) {
             const newItems = [...this.state.userCardColumnsSelected];
@@ -399,7 +398,7 @@ class AppContainer extends Component {
         this.setState({
             introButtonClicked: true
         });
-        this.getRandomNum();
+        this.countdown();
 
     };
 
@@ -419,7 +418,6 @@ class AppContainer extends Component {
         this.setState({
             ranNums: ranNums
         })
-        console.log(ranNums)
 
 
     };
@@ -433,8 +431,7 @@ class AppContainer extends Component {
 
             } else {
 
-                console.log('numberInShuffledArray')
-                console.log(numberInShuffledArray)
+
 
                 this.state.cardsCalled.add(this.state.possibleCards[numberInShuffledArray]);
                 //
@@ -446,15 +443,35 @@ class AppContainer extends Component {
                     cardCalledNumber: this.state.cardCalledNumber + 1
 
                 })
-                console.log(this.state.possibleCards[numberInShuffledArray])
             }
         }
 
 
-        setTimeout(this.getRandomNum, 10);
+        setTimeout(this.getRandomNum, 4000);
 
 
     }
+
+    countdown = () => {
+
+        if (this.state.currentCalledCard.name === 1) {
+this.getRandomNum();
+        }
+        else {
+
+            this.setState({
+                currentCalledCard: {
+                    name: this.state.currentCalledCard.name - 1,
+                    className: "countDownCard",
+
+                },
+
+
+            })
+        setTimeout(this.countdown, 1500);
+
+        }
+    };
 
     turnOffPlayerHasNotWonOverLay = () => {
         this.setState({
@@ -462,23 +479,15 @@ class AppContainer extends Component {
         })
     }
 
-        turnOffPlayerHasWonOverLay = () => {
-        this.setState({
-            playerHasWonMessage: false
-        })
-    }
-
 
 
     checkIfPlayerWon = () => {
-        console.log("Checking if player won!")
         let array2 = this.state.usersCards;
         let result = {};
         this.state.cardsCalled.forEach(function (item) {
             result[item.name] = array2.filter(t => t.name == item.name).length;
         })
         let countOfMatchingCards = Object.values(result).reduce((a, b) => a + b, 0)
-        console.log(countOfMatchingCards)
         if (countOfMatchingCards === 16) {
             this.setState({
                 playerHasWonMessage: true

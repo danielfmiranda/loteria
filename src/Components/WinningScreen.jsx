@@ -19,19 +19,9 @@ class WinningScreen extends Component {
                     width={this.props.windowWidth}
                     height={this.props.windowHeight}
                     initialVelocityX={1}
-                    initialVelocityY={1000}
-                    gracvity={50}
+                    initialVelocityY={1500}
                 />
 
-                {/*<Card style={{ width: '18rem' }}>*/}
-                {/*  <Card.Body>*/}
-                {/*    <Card.Title><h1> YOU WON!!!!</h1></Card.Title>*/}
-                {/*    <Card.Text>*/}
-                {/*      Some quick example text to build on the card title and make up the bulk of*/}
-                {/*      the card's content.*/}
-                {/*    </Card.Text>*/}
-                {/*  </Card.Body>*/}
-                {/*</Card>*/}
                 <div className={'winMessageContainer'}>
                     <div className={'titleCardsContainer'}>
                         <div className={"lCard titleCard"}>
@@ -67,7 +57,6 @@ class WinningScreen extends Component {
 
                     >
                         <h1 className={'winningMessage'}> You Won!!!</h1>
-                        <h1 className={'winningMessage'}> Ganaste!!!</h1>
 
                         <Button onClick={() => window.location.reload(false)} className={'replayButton'}
                                 variant="primary"
