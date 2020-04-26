@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-hook/window-size": "^2.0.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
+    "framer-motion": "^1.10.3",
     "prettier": "^2.0.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
+    "react-confetti": "^5.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-use-window-size": "^1.0.1",
+    "react-window-size": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -42,6 +42,13 @@
 
 }
 
+.playerHasWon {
+        background-color: green !important;
+    transition-duration: 0.2s;
+    padding: none !important;
+    height: 23%;
+}
+
 .errorMessageRow > .cell {
     opacity: 0.8;
     transition-duration: 0.2s;
