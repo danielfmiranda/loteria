@@ -1,83 +1,84 @@
 .dealersCardContainer {
-    display: inline-flex;
-    width:82%;
-    text-align: center;
-    margin: auto;
-    height:100%;
-    max-width: 400px;
+  display: inline-flex;
+  width: 82%;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+  max-width: 400px;
 }
-
-
 
 .ribbon {
- font-size: 16px !important;
- /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+  font-size: 16px !important;
+  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
 
- width: 100%;
+  width: 100%;
 
- position: relative;
- background: #444c8b;
- color: #fff;
- text-align: right;
- padding: 1em 2em; /* Adjust to suit */
- margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+  position: relative;
+  background: #444c8b;
+  color: #fff;
+  text-align: right;
+  padding: 1em 2em; /* Adjust to suit */
+  margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
-.ribbon:before, .ribbon:after {
- content: "";
- position: absolute;
- display: block;
- bottom: -1em;
- border: 1.5em solid #36367a;
- z-index: -1;
+.ribbon:before,
+.ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #36367a;
+  z-index: -1;
 }
 .ribbon:before {
- left: -2em;
- border-right-width: 1.5em;
- border-left-color: transparent;
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
 }
 .ribbon:after {
- right: -2em;
- border-left-width: 1.5em;
- border-right-color: transparent;
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
 }
-.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
- content: "";
- position: absolute;
- display: block;
- border-style: solid;
- border-color: #1f1f49 transparent transparent transparent;
- bottom: -1em;
+.ribbon .ribbon-content:before,
+.ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #1f1f49 transparent transparent transparent;
+  bottom: -1em;
 }
 .ribbon .ribbon-content:before {
- left: 0;
- border-width: 1em 0 0 1em;
+  left: 0;
+  border-width: 1em 0 0 1em;
 }
 .ribbon .ribbon-content:after {
- right: 0;
- border-width: 1em 1em 0 0;
+  right: 0;
+  border-width: 1em 1em 0 0;
 }
 
-.non-semantic-protector{
-    margin: auto;
-    width:100%
+.non-semantic-protector {
+  margin: auto;
+  width: 100%;
 }
 
-.imageContainer{
-    position: relative;
-    z-index: 100;
-    background-color: white;
-    border-radius: 5px;
-    height:6.5em;
-    margin-left:4em;
-    box-shadow:grey 6px 5px;
-    /*background-image: url("../../src/Images/La_Botella.png");*/
-    background-position: center;
-    background-size: 95% 100%;    background-repeat: no-repeat;
+.imageContainer {
+  position: relative;
+  z-index: 100;
+  background-color: white;
+  border-radius: 5px;
+  height: 6.5em;
+  margin-left: 4em;
+  box-shadow: grey 6px 5px;
+  /*background-image: url("../../src/Images/La_Botella.png");*/
+  background-position: center;
+  background-size: 95% 100%;
+  background-repeat: no-repeat;
 
-    width:20%;
-    margin-top:none;
-    margin-bottom:-7em;
+  width: 20%;
+  margin-top: none;
+  margin-bottom: -7em;
 }
-.ribbon-content{
-    padding-right: 1em;
+.ribbon-content {
+  padding-right: 1em;
 }

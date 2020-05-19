@@ -1,26 +1,23 @@
-.winMessageContainer{
-    text-align: center;
-    margin-top:04%;
+.winMessageContainer {
+  text-align: center;
+  margin-top: 04%;
 }
-.winMessageContainer h1{
-    text-align: center;
-    margin-top:10%;
+.winMessageContainer h1 {
+  text-align: center;
+  margin-top: 10%;
 }
 
-
-.replayButton{
-    margin-top:10%;
-        font-size: 2.5rem;
-    width: 60%;
+.replayButton {
+  margin-top: 10%;
+  font-size: 2.5rem;
+  width: 60%;
 }
 
 .titleCardsContainer {
-    align-content: center;
-    text-align: center;
-
+  align-content: center;
+  text-align: center;
 }
 
 .winningMessage {
-    font-size: 6em;
+  font-size: 6em;
 }
-

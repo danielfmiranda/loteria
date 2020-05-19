@@ -1,680 +1,572 @@
 .userCardContainer {
-    width: 100%;
-    height: 70%;
+  width: 100%;
+  height: 70%;
 }
 
 .callingCardContainer {
-    width: 100%;
-    height: 15%;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: .6em;
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0.6em;
 }
 
-
 .loteriaButtonContainer {
-    width: 100%;
-    height: 12%;
-    text-align: center;
+  width: 100%;
+  height: 12%;
+  text-align: center;
 }
 
 .loteriaButton {
-    margin-top: .5rem;
-    width: 50%;
-    max-width: 500px;
+  margin-top: 0.5rem;
+  width: 50%;
+  max-width: 500px;
+}
 
+.userCard {
+  max-width: 400px;
+  margin: auto;
 }
 
 .userContentColumn {
-    text-align: center;
-    height: 100% !important;
+  text-align: center;
+  height: 100% !important;
 }
 
 .gameContainer {
-    height: 100%;
+  height: 100%;
 }
 
 .errorMessageRow {
-    background-color: red !important;
-    transition-duration: 0.2s;
-    padding: none !important;
-    height: 23%;
-
+  background-color: red !important;
+  transition-duration: 0.2s;
+  padding: none !important;
+  height: 23%;
 }
 
 .playerHasWon {
-        background-color: green !important;
-    transition-duration: 0.2s;
-    padding: none !important;
-    height: 23%;
+  background-color: green !important;
+  transition-duration: 0.2s;
+  padding: none !important;
+  height: 23%;
 }
 
 .errorMessageRow > .cell {
-    opacity: 0.8;
-    transition-duration: 0.2s;
-
+  opacity: 0.8;
+  transition-duration: 0.2s;
 }
 
 .userContentRow {
-    height: 100% !important;
-    width: 100% !important;
+  height: 100% !important;
+  width: 100% !important;
 }
 
 .userContentContainer {
-    margin: auto;
-    height: 100% !important;
-    width: 100%;
-    padding-top: 0 !important;
+  margin: auto;
+  height: 100% !important;
+  width: 100%;
+  padding-top: 0 !important;
 }
 
 .row {
-    margin: auto;
-    max-width: 550px;
-    padding: 0px !important;
+  margin: auto;
+  max-width: 550px;
+  padding: 0px !important;
 }
 
 .container {
-    max-width: unset !important;
-    padding: 0px !important;
-
-
+  max-width: unset !important;
+  padding: 0px !important;
 }
 
 .col {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 .cell {
-    transition-duration: 0.2s;
+  transition-duration: 0.2s;
 
-    border: 3px solid white;
-    padding: 0px !important;
-    margin: 0px !important;
-    background-color: #FFFFFF;
-
-
+  border: 3px solid white;
+  padding: 0px !important;
+  margin: 0px !important;
+  background-color: #ffffff;
 }
 
 .cell:hover {
-    opacity: 0.8;
-    transition-duration: .2s;
-    cursor: pointer;
-
-
+  opacity: 0.8;
+  transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 .cardRow {
-    padding: none !important;
-    height: 23%;
-    background-color: #444c8b;
-    transition-duration: 0.2s;
-
+  padding: none !important;
+  height: 23%;
+  background-color: #444c8b;
+  transition-duration: 0.2s;
 }
-
 
 .cardImage {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
-
 
 .userCard {
-    height: 100%;
-    margin-top: 1rem;
+  height: 100%;
+  margin-top: 1rem;
 }
 
-
 .emoji {
-    background-image: url("../../src/Images/El_Emoji.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Emoji.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .campana {
-    background-image: url("../../src/Images/La_Campana.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Campana.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .garza {
-    background-image: url("../../src/Images/La_Garza.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Garza.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .estrella {
-    background-image: url("../../src/Images/La_Estrella.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Estrella.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .arbol {
-    background-image: url("../../src/Images/El_Arbol.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Arbol.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .buscador {
-    background-image: url("../../src/Images/El_Buscador.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Buscador.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .pajaro {
-    background-image: url("../../src/Images/El_Pajaro.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Pajaro.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .sandia {
-    background-image: url("../../src/Images/La_Sandia.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../../src/Images/La_Sandia.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-
 .musico {
-    background-image: url("../../src/Images/El_Musico.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Musico.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .ajolote {
-    background-image: url("../../src/Images/El_Ajolote.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Ajolote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .alacran {
-    background-image: url("../../src/Images/El_Alacran.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Alacran.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .arbol {
-    background-image: url("../../src/Images/El_Arbol.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Arbol.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .arpa {
-    background-image: url("../../src/Images/El_Arpa.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Arpa.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .bandolon {
-    background-image: url("../../src/Images/El_Bandolon.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Bandolon.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .barril {
-    background-image: url("../../src/Images/El_Barril.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Barril.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .buscador {
-    background-image: url("../../src/Images/El_Buscador.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Buscador.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .cantarito {
-    background-image: url("../../src/Images/El_Cantarito.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Cantarito.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .catrin {
-    background-image: url("../../src/Images/El_Catrin.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Catrin.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .cazo {
-    background-image: url("../../src/Images/El_Cazo.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Cazo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .corazon {
-    background-image: url("../../src/Images/El_Corazon.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Corazon.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .cotorro {
-    background-image: url("../../src/Images/El_Cotorro.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Cotorro.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .elote {
-    background-image: url("../../src/Images/El_Elote.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Elote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .emoji {
-    background-image: url("../../src/Images/El_Emoji.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Emoji.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .gallo {
-    background-image: url("../../src/Images/El_Gallo.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Gallo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .gorro {
-    background-image: url("../../src/Images/El_Gorro.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Gorro.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .guacamole {
-    background-image: url("../../src/Images/El_Guacamole.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Guacamole.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .melon {
-    background-image: url("../../src/Images/El_Melon.png");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../../src/Images/El_Melon.png");
+  background-position: center;
+  background-repeat: no-repeat;
 
-    background-size: contain;
+  background-size: contain;
 }
 
 .mundo {
-    background-image: url("../../src/Images/El_Mundo.png");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../../src/Images/El_Mundo.png");
+  background-position: center;
+  background-repeat: no-repeat;
 
-    background-size: contain;
+  background-size: contain;
 }
 
 .musico {
-    background-image: url("../../src/Images/El_Musico.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Musico.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .nopal {
-    background-image: url("../../src/Images/El_Nopal.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Nopal.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .pajaro {
-    background-image: url("../../src/Images/El_Pajaro.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Pajaro.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .parajuas {
-    background-image: url("../../src/Images/El_Parajuas.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Parajuas.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .pescado {
-    background-image: url("../../src/Images/El_Pescado.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
+  background-image: url("../../src/Images/El_Pescado.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
-
-    background-size: 93% 100%;
+  background-size: 93% 100%;
 }
 
 .pino {
-    background-image: url("../../src/Images/El_Pino.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Pino.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .sol {
-    background-image: url("../../src/Images/El_Sol.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Sol.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .tambor {
-    background-image: url("../../src/Images/El_Tambor.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Tambor.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .venado {
-    background-image: url("../../src/Images/El_Venado.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Venado.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-
 .violoncello {
-    background-image: url("../../src/Images/El_Vioncello.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Vioncello.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .xolo {
-    background-image: url("../../src/Images/El_Xolo.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/El_Xolo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .calavera {
-    background-image: url("../../src/Images/La_Calavera.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Calavera.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .camaron {
-    background-image: url("../../src/Images/La_Camaron.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Camaron.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .campana {
-    background-image: url("../../src/Images/La_Campana.png");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../../src/Images/La_Campana.png");
+  background-position: center;
+  background-repeat: no-repeat;
 
-    background-size: contain;
+  background-size: contain;
 }
 
 .chalupa {
-    background-image: url("../../src/Images/La_Chalupa.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Chalupa.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .concha {
-    background-image: url("../../src/Images/La_Concha.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Concha.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .corona {
-    background-image: url("../../src/Images/La_Corona.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Corona.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .dama {
-    background-image: url("../../src/Images/La_Dama.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Dama.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .escalera {
-    background-image: url("../../src/Images/La_Escalera.png");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../../src/Images/La_Escalera.png");
+  background-position: center;
+  background-repeat: no-repeat;
 
-    background-size: contain;
+  background-size: contain;
 }
 
 .estrella {
-    background-image: url("../../src/Images/La_Estrella.png");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../../src/Images/La_Estrella.png");
+  background-position: center;
+  background-repeat: no-repeat;
 
-    background-size: contain;
+  background-size: contain;
 }
 
 .garza {
-    background-image: url("../../src/Images/La_Garza.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Garza.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .luna {
-    background-image: url("../../src/Images/La_Luna.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Luna.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .maceta {
-    background-image: url("../../src/Images/La_Maceta.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Maceta.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .mano {
-    background-image: url("../../src/Images/La_Mano.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Mano.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .palma {
-    background-image: url("../../src/Images/La_Palma.png");
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("../../src/Images/La_Palma.png");
+  background-position: center;
+  background-repeat: no-repeat;
 
-    background-size: contain;
+  background-size: contain;
 }
 
 .pera {
-    background-image: url("../../src/Images/La_Pera.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Pera.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .rana {
-    background-image: url("../../src/Images/La_Rana.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Rana.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .rosa {
-    background-image: url("../../src/Images/La_Rosa.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Rosa.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .sandia {
-    background-image: url("../../src/Images/La_Sandia.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Sandia.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-
 .sirena {
-    background-image: url("../../src/Images/La_Sirena.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Sirena.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .jaras {
-    background-image: url("../../src/Images/Las_Jaras.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/Las_Jaras.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .arana {
-    background-image: url("../../src/Images/La_Arana.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Arana.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .bandera {
-    background-image: url("../../src/Images/La_Bandera.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Bandera.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
 
 .bota {
-    background-image: url("../../src/Images/La_Bota.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Bota.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
 
 .botella {
-    background-image: url("../../src/Images/La_Botella.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-
+  background-image: url("../../src/Images/La_Botella.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
-
 
 .countDownCard {
-
-        background-image: linear-gradient(indianred, indianred);
+  background-image: linear-gradient(indianred, indianred);
   background-size: 90% 92% !important;
-      background-repeat: no-repeat;
-
-
+  background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
